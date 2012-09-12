@@ -1,0 +1,21 @@
+﻿Build started 9/9/2012 9:25:55 PM.
+Project "C:\Users\Rick\Documents\Visual Studio 2010\Projects\OpSysProj-1\OpSysProj-1\dsg.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\dsg.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  All outputs are up-to-date.
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\dsg.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DiscDrive.cpp FCFS.cpp IOScheduler.cpp SchedulingAlgorithm.cpp dsg.cpp
+  dsg.cpp
+  SchedulingAlgorithm.cpp
+  IOScheduler.cpp
+c:\users\rick\documents\visual studio 2010\projects\opsysproj-1\opsysproj-1\ioscheduler.cpp(86): warning C4018: '<' : signed/unsigned mismatch
+  FCFS.cpp
+  DiscDrive.cpp
+c:\users\rick\documents\visual studio 2010\projects\opsysproj-1\opsysproj-1\discdrive.cpp(23): error C2039: 'scheduleRequests' : is not a member of 'IOScheduler'
+          c:\users\rick\documents\visual studio 2010\projects\opsysproj-1\opsysproj-1\ioscheduler.h(10) : see declaration of 'IOScheduler'
+  Generating Code...
+Done Building Project "C:\Users\Rick\Documents\Visual Studio 2010\Projects\OpSysProj-1\OpSysProj-1\dsg.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.29
