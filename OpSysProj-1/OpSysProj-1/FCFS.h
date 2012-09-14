@@ -1,3 +1,6 @@
+#ifndef __FCFS__H
+#define __FCFS__H
+
 #pragma once
 #include "stdafx.h"
 #include "SchedulingAlgorithm.h"
@@ -15,3 +18,5 @@ public:
 	Request nextRequest();
 
 };
+
+#endif

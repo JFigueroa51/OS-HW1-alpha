@@ -49,13 +49,13 @@
       <Filter>Header Files\Disc Components</Filter>
     </ClInclude>
     <ClInclude Include="FCFS.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\Algorithms</Filter>
     </ClInclude>
     <ClInclude Include="DiscHead.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Disc Components</Filter>
     </ClInclude>
     <ClInclude Include="MutableDiscHead.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Disc Components</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -81,10 +81,10 @@
       <Filter>Source Files\Disc Components</Filter>
     </ClCompile>
     <ClCompile Include="DiscHead.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Disc Components</Filter>
     </ClCompile>
     <ClCompile Include="MutableDiscHead.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Disc Components</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

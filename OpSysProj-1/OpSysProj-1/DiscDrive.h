@@ -1,3 +1,6 @@
+#ifndef __DISCDRIVE__H
+#define __DISCDRIVE__H
+
 #pragma once
 #include "stdafx.h"
 #include "IOScheduler.h"
@@ -30,3 +33,5 @@ private:
 	//records info about each request for the grapher
 	void logGraphInfoForRequest(Request *r);
 };
+
+#endif

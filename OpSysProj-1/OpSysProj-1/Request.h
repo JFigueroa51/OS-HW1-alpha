@@ -1,3 +1,6 @@
+
+#ifndef __REQUEST__H
+#define __REQUEST__H
 #pragma once
 #include "stdafx.h"
 
@@ -22,3 +25,5 @@ private:
 	int startTime;
 	int endTime; 
 };
+
+#endif

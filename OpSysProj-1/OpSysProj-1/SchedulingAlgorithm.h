@@ -1,3 +1,6 @@
+#ifndef __SCHEDULINGALGORITHM__H
+#define __SCHEDULINGALGORITHM__H
+
 #pragma once
 #include "stdafx.h"
 #include <queue>
@@ -14,3 +17,5 @@ public:
 	//implemented in the subclasses according to the logic of the specific algorithms
 	virtual Request nextRequest();
 };
+
+#endif

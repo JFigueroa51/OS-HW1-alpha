@@ -18,12 +18,3 @@ void MutableDiscHead::setSector( int updatedSector)
 	this->sector = updatedSector;
 }
 
-int MutableDiscHead::getSector()
-{
-	return sector;
-}
-
-int MutableDiscHead::getTrack()
-{
-	return track;
-}

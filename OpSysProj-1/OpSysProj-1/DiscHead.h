@@ -1,9 +1,12 @@
+#ifndef __DISCHEAD__H
+#define __DISCHEAD__H
+
 #pragma once
 #include "stdafx.h"
 
 class DiscHead
 {
-private:
+protected:
 	int track;
 	int sector;
 
@@ -14,3 +17,5 @@ public:
 	int getTrack();
 	int getSector();
 };
+
+#endif

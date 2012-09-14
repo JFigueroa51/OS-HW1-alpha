@@ -1,3 +1,6 @@
+#ifndef __IOSCHEDULER__H
+#define __IOSCHEDULER__H
+
 #pragma once
 #include "stdafx.h"
 #include <queue>
@@ -25,4 +28,4 @@ private:
 	SchedulingAlgorithm *algorithm;
 	void initAlgorithm(string algStr);//helper method to construct algorithm
 };
-
+#endif
